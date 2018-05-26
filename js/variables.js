@@ -5,8 +5,9 @@ var nombre;
 nombre = prompt('Ingrese el nombre: ');
 // Nos muestra una alerta
 alert("Mi nombre es: " + nombre );
+var edad = 23;
 // Nos permite escribir algo por decirlo asi en el body del navegador
-document.write("Mi nombre es: " + nombre);
+document.write("Mi nombre es: " + nombre + "Y mi edad es: " + edad);
 // Nos permite ver en la consola del navegador
 console.log(nombre);
 
